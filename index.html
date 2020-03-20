@@ -24,9 +24,75 @@
                 <h5><custom class="reserved">final</custom> String <custom class="variable">phone</custom> = <custom class="string">'+55 (46) 9 8400-8982'</custom>;</h5>
                 <h5><custom class="reserved">final</custom> String <custom class="variable">email</custom> = <custom class="string">'oachgustavo@gmail.com'</custom>;</h5>
                 <h5><custom class="reserved">final</custom> URL <custom class="variable">github</custom> = <custom class="string">'<a href="https://github.com/gustavovitor">Github URL</a>'</custom>;</h5>
-                <h5><custom class="reserved">final</custom> URL <custom class="variable">linked_in</custom> = <custom class="string">'<a href="https://www.linkedin.com/in/gustavo-m-369a3011b/">LinkedIn URL</a>'</custom>;</h5>
+                <h5><custom class="reserved">final</custom> URL <custom class="variable">linkedIn</custom> = <custom class="string">'<a href="https://www.linkedin.com/in/gustavo-m-369a3011b/">LinkedIn URL</a>'</custom>;</h5>
             </div>
         </div>
+
+        <div class="row mt-4 bloc">
+            <div class="col ml-5">
+                <h5 class="comment"> // About - Tão difícil quanto as Qualities, mas, tudo bem né..</h5>
+                <h5>
+                <h5><custom class="reserved">final</custom> String <custom class="variable">about</custom> = <custom class="string">'Eu sou uma pessoa calma, bastante comunicativa, gosto muito de criar coisas novas
+                    e aprender coisas novas, sim, adoro linguagens tipadas, acho mais seguro de trabalhar com elas, mas é claro que não deixo de estudar uma não tipada só por que não gosto da outra, linguagem é ferramenta.
+                    Gosto de jogos e música, toco violão e adoro ouvir música clássica apesar de não conseguir tocar ainda.'</custom>;</h5>
+            </div>
+        </div>
+
+        <div class="row mt-4 bloc">
+            <div class="col ml-5">
+                <h5 class="comment"> // Skills - Ah essa eu gosto de atribuir, e como gosto de aprender uma nova coisinha a cada dia que passa, claro que tenho as minhas linguagens
+                    prediletas, os frameworks mais gostosos de se mexer, mas é sempre bom ter uma carta na manga, então, lá vai a lista:</h5>
+                <h5>
+                    <custom class="reserved">final</custom> List&lt;Skill> <custom class="variable">skillSet</custom> = <custom class="override">List.of</custom>([ <br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Java'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Avançado'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">
+                    'Eu gosto muito de linguagens tipadas, e o Java, não há nem o que falar, é uma linguagem ótima de se trabalhar, a orientação a objetos implementada por ela me permite fazer muita coisa legal e produtiva.
+                    Atualmente, eu gosto muito do Framework Spring, ele atende 100% as necessidades do mercado.'
+                </custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Angular'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Avançado'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'Após a mudança do bagunçado AngularJS para o Angular 2 eu comecei a gostar desse carinha, principalmente pela chegada do Typescript,
+                    como disse anteriormente, gosto de linguagens tipadas, e o Typescript permitiu que eu aprimorasse a qualidade das minhas aplicações.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Dart / Flutter'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'Como diz o mundo a fora, tão rico e tão novo, não é? Flutter chegou para chegar, eu comecei a estudar esta linguagem em Março de 2019 e logo no
+                    Hello World eu já fiquei encantado com o poder dessa linguagem, logo parti para o uso dela em produção, e até então, ela atende muito bem quando o quesito é Frontend, <strong>e sim, estou esperando o Flutter Web para subistituir o Angular de vez!</strong>'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'SQL'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'Banco de dados para muitos pode ser um bicho de sete cabeças, mas para os desenvolvedores ele é só mais uma ferramenta, sei mecher bastante sim
+                    no entanto deixo as honras de falar que é avançado em banco de dados apenas os DBAs, afinal, banco de dados não é só SELECT/UPDATE/DELETE, vai muito além de tudo isso. Tenho interesse em aprender muito mais sobre o assunto.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'NoSQL'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'Comecei a utilizar o NoSQL no meu projeto Maker, quando precisei criar um aplicativo mobile que ia precisar de uma velocidade um tanto quanto elevada,
+                    gostei muito, a forma como tudo funciona num banco não relacional me encantou até mesmo para mexer com o Java, minhas metas quanto a isso? Aprender a programação reativa do Spring Boot junto a este banco de dados e incluir
+                    no Maker um novo projeto chamado Maker Reactive, para utilizar o NoSQL com o QueryDsl com toda força e de forma Reativa.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Powerbuilder'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'Comecei a utilizar na CISS S.A, e gostei bastante, já tinha mexido com linguagens de baixo nível, para você ter ideia, até com Assembly eu mexi um pouquinho quando
+                    fazia aqueles famosos servidores piratas de jogos quando tinha meus 12 anos de idade, (quem nunca fez? Haha). Atualmente eu ainda utilizo Powerbuilder para projetos Windows desktop rápidos, afinal, é uma linguagem extremamente produtiva.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Others'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Baixo'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'Comecei a estudar e parei por que outra coisa fora mais prioritária, mas vale uma menção honrosa com certeza: Python, Go Lang, PHP, Vue.js, Electron.js, entre outras mil e uma..'</custom>,<br/>
+                    &emsp;},<br/>
+                    ]).<custom class="override">typedList&lt;</custom>Skill<custom class="override">></custom>();
+                </h5>
+            </div>
+        </div>
+
         <div class="row mt-4 bloc">
             <div class="col ml-5">
                 <h5 class="comment"> // Address - Atualmente, em Dois Vizinhos, cidadezinha legal! </h5>
@@ -105,45 +171,6 @@
                     &emsp;&emsp;<custom class="string">'url'</custom>: <custom class="string">'<a href="https://github.com/gustavovitor/maker">Project URL</a>'</custom>,<br/>
                     &emsp;}<br/>
                     ]).<custom class="override">typedList&lt;</custom>Project<custom class="override">></custom>();
-                </h5>
-            </div>
-        </div>
-
-        <div class="row mt-4 bloc">
-            <div class="col ml-5">
-                <h5 class="comment"> // Programming Languages - Ah essa eu gosto de atribuir, e como gosto de aprender uma nova coisinha a cada dia que passa, claro que tenho as minhas linguagens
-                prediletas, os frameworks mais gostosos de se mexer, mas é sempre bom ter uma carta na manga, então, lá vai a lista:</h5>
-                <h5>
-                    <custom class="reserved">final</custom> List&lt;ProgrammingLanguage> <custom class="variable">programmingLanguages</custom> = <custom class="override">List.of</custom>([ <br/>
-                    &emsp;{<br/>
-                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Java'</custom>,<br/>
-                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Avançado, com o ecossistema Spring e com as tecnoligias em volta do Java.'</custom>,<br/>
-                    &emsp;},<br/>
-                    &emsp;{<br/>
-                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Angular'</custom>,<br/>
-                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Avançado, sei como funciona um RouteGuard se é que me entende.'</custom>,<br/>
-                    &emsp;},<br/>
-                    &emsp;{<br/>
-                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Dart'</custom>,<br/>
-                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário, de toda a experiência que tive com o desenvolvimento Mobile, Flutter gravado em Dart está batendo as paradas.'</custom>,<br/>
-                    &emsp;},<br/>
-                    &emsp;{<br/>
-                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'SQL'</custom>,<br/>
-                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário, sim, sei criar uma procedure ou uma function, mas vamos deixar o Avançado para os DBAs não é mesmo?'</custom>,<br/>
-                    &emsp;},<br/>
-                    &emsp;{<br/>
-                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'NoSQL'</custom>,<br/>
-                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário, nada a declarar, para o Mobile, não tem, tem que ser Mongo cara!'</custom>,<br/>
-                    &emsp;},<br/>
-                    &emsp;{<br/>
-                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Powerbuilder'</custom>,<br/>
-                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário, tive que aprender, e no final, até que gostei sabia?'</custom>,<br/>
-                    &emsp;},<br/>
-                    &emsp;{<br/>
-                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Others'</custom>,<br/>
-                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Baixo, Python, Go Lang, PHP, Vue.js, e outras mil e uma linguagens, adoro testar, mas se eu for falar todas que á mexi, o HTML não vai suportar mais.'</custom>,<br/>
-                    &emsp;},<br/>
-                    ]).<custom class="override">typedList&lt;</custom>ProgrammingLanguage<custom class="override">></custom>();
                 </h5>
             </div>
         </div>
