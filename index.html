@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gustavo Miranda</title>
+    <meta name="description" content="O currículo de um programador.">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <h4><strong class="override">@JsonSerializable()</strong></h4>
+                <h4>
+                    <custom class="reserved">class</custom> <strong>Gustavo</strong> <custom class="reserved">implements</custom> <strong>FullStackDeveloper</strong> {
+                </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col ml-5">
+                <h5><custom class="reserved">final</custom> String <custom class="variable">description</custom> = <custom class="string">'Full Stack Developer using Java, Angular and Flutter.'</custom>;</h5>
+                <h5><custom class="reserved">final</custom> String <custom class="variable">phone</custom> = <custom class="string">'+55 (46) 9 8400-8982'</custom>;</h5>
+                <h5><custom class="reserved">final</custom> URL <custom class="variable">github</custom> = <custom class="string">'<a href="https://github.com/gustavovitor">Github URL</a>'</custom>;</h5>
+                <h5><custom class="reserved">final</custom> URL <custom class="variable">linked_in</custom> = <custom class="string">'<a href="https://www.linkedin.com/in/gustavo-m-369a3011b/">LinkedIn URL</a>'</custom>;</h5>
+            </div>
+        </div>
+        <div class="row mt-4 bloc">
+            <div class="col ml-5">
+                <h5 class="comment"> // Address - Atualmente, em Dois Vizinhos, cidadezinha legal! </h5>
+                <h5>
+                    <custom class="reserved">final</custom> Address <custom class="variable">address</custom> = <custom class="override">Address.fromJson</custom>({ <br/>
+                    &emsp;<custom class="string">'street'</custom>: <custom class="string">'Giusepe Garibalde'</custom>, <br/>
+                    &emsp;<custom class="string">'neighborhood'</custom>: <custom class="string">'São Francisco de Assis'</custom>, <br/>
+                    &emsp;<custom class="string">'number'</custom>: <custom class="string">'16'</custom>, <br/>
+                    &emsp;<custom class="string">'city'</custom>: <custom class="string">'Dois Vizinhos'</custom>, <br/>
+                    &emsp;<custom class="string">'state'</custom>: <custom class="string">'Paraná'</custom> <br/>
+                    });
+                </h5>
+            </div>
+        </div>
+
+        <div class="row mt-4 bloc">
+            <div class="col ml-5">
+                <h5 class="comment">
+                    // Experience - A experiência oficial mesmo é essa, mas eu já parei tanto banco de produção que você nem imagina. (Haha) Brincadeiras a parte, além de toda essa experiencia
+                    oficial tenho uma boa carga de experiência dos meus estudos pessoais (diários e que nunca vão parar), além daqueles vários projetos paralelos para tentar ficar rico, não é mesmo? :)
+                </h5>
+                <h5>
+                    <custom class="reserved">final</custom> List&lt;Experience> <custom class="variable">experience</custom> = <custom class="override">List.of</custom>([ <br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'enterprise'</custom>: <custom class="string">'CISS S.A'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'role'</custom>: <custom class="string"><strong>'Full Stack Developer'</strong></custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'responsability'</custom>: <custom class="string">'Desenvolver e prestar manutenção nos produtos da empresa.'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'time'</custom>: <custom class="string">'Desde janeiro de 2018 até os dias atuais.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'enterprise'</custom>: <custom class="string">'Disbecol'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'role'</custom>: <custom class="string">'Estagiário'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'responsability'</custom>: <custom class="string">'Estagiava no setor logístico, controlava a entrega de produtos através de paineis online e automatizava processos da empresa.'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'time'</custom>: <custom class="string">'De janeiro de 2017 até dezembro de 2017.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'enterprise'</custom>: <custom class="string">'C.C.C.C'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'role'</custom>: <custom class="string">'Menor Aprendiz'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'responsability'</custom>: <custom class="string">'Realizava procedimentos administrativos básicos do setor de Recursos Humanos da empresa e também tinha uma pequena participação nos demais setores.'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'time'</custom>: <custom class="string">'De setembro de 2012 até agosto de 2013.'</custom>,<br/>
+                    &emsp;}<br/>
+                    ]).<custom class="override">typedList&lt;</custom>Experience<custom class="override">></custom>();
+                </h5>
+            </div>
+        </div>
+
+        <div class="row mt-4 bloc">
+            <div class="col ml-5">
+                <h5 class="comment"> // Qualities - Nossa, essa variável foi bem dificil de atribuir, ter que identificar as próprias qualidades é horrível, mas, fiz né. Estava nos requisitos do Currículo. O Product Owner que lute para
+                    validar se deu tudo certo!</h5>
+                <h5>
+                    <custom class="reserved">final</custom> List&lt;Quality> <custom class="variable">qualities</custom> = <custom class="override">List.of</custom>([ <br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'Autodidata, não gosta de depende de ninguém e tenta se virar sozinho.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'Extrovertido e muito comunicativo!'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'Gosto de aprender coisas novas.'</custom>,<br/>
+                    &emsp;},<br/>
+                    ]).<custom class="override">typedList&lt;</custom>Quality<custom class="override">></custom>();
+                </h5>
+            </div>
+        </div>
+
+        <div class="row mt-4 bloc">
+            <div class="col ml-5">
+                <h5 class="comment"> // Projects - Vale citar os projetos? Assim, eu tenho muitos projetos, mas boa parte é da empresa sabe? Ai tenho outros privados que também o nome já diz, são privados, mas, me chame
+                no LinkedIn, se quiser conhecer eu posso lhe mostrar a experiência aplicada :)</h5>
+                <h5>
+                    <custom class="reserved">final</custom> List&lt;Project> <custom class="variable">projects</custom> = <custom class="override">List.of</custom>([ <br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Maker'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'description'</custom>: <custom class="string">'O Maker fora feito para reduzir o tempo da criação de APIs Restful, com ele o desenvolvedor pode focar inteiramente nas regras de negócio da aplicação. '</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'url'</custom>: <custom class="string">'<a href="https://github.com/gustavovitor/maker">Project URL</a>'</custom>,<br/>
+                    &emsp;}<br/>
+                    ]).<custom class="override">typedList&lt;</custom>Project<custom class="override">></custom>();
+                </h5>
+            </div>
+        </div>
+
+        <div class="row mt-4 bloc">
+            <div class="col ml-5">
+                <h5 class="comment"> // Programming Languages - Ah essa eu gosto de atribuir, e como gosto de aprender uma nova coisinha a cada dia que passa, claro que tenho as minhas linguagens
+                prediletas, os frameworks mais gostosos de se mexer, mas é sempre bom ter uma carta na manga, então, lá vai a lista:</h5>
+                <h5>
+                    <custom class="reserved">final</custom> List&lt;ProgrammingLanguage> <custom class="variable">programmingLanguages</custom> = <custom class="override">List.of</custom>([ <br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Java'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Avançado, com o ecossistema Spring e com as tecnoligias em volta do Java.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Angular'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Avançado, sei como funciona um RouteGuard se é que me entende.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Dart'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário, de toda a experiência que tive com o desenvolvimento Mobile, Flutter gravado em Dart está batendo as paradas.'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'SQL'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário, sim, sei criar uma procedure ou uma function, mas vamos deixar o Avançado para os DBAs não é mesmo?'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'NoSQL'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário, nada a declarar, para o Mobile, não tem, tem que ser Mongo cara!'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Powerbuilder'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Intermediário, tive que aprender, e no final, até que gostei sabia?'</custom>,<br/>
+                    &emsp;},<br/>
+                    &emsp;{<br/>
+                    &emsp;&emsp;<custom class="string">'name'</custom>: <custom class="string">'Others'</custom>,<br/>
+                    &emsp;&emsp;<custom class="string">'level'</custom>: <custom class="string">'Baixo, Python, Go Lang, PHP, Vue.js, e outras mil e uma linguagens, adoro testar, mas se eu for falar todas que á mexi, o HTML não vai suportar mais.'</custom>,<br/>
+                    &emsp;},<br/>
+                    ]).<custom class="override">typedList&lt;</custom>ProgrammingLanguage<custom class="override">></custom>();
+                </h5>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <h3>
+                    }
+                </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
